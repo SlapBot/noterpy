@@ -1,3 +1,4 @@
+from collections.abc import Sequence
 from simplenote import Simplenote
 
 
@@ -23,7 +24,7 @@ class Noter:
         return NoteList(data[0], self.simple_note)
 
     def add_note(self, content, tags=None, note=None):
-        if not note:
+        if note:
             return self.simple_note.add_note(note)
         note = {}
         if tags:
@@ -35,7 +36,13 @@ class Noter:
         return NoteInfo(self.simple_note.add_note(note)[0], self.simple_note)
 
 
-class NoteList:
+class NoteList(Sequence):
+    def __getitem__(self, index):
+        return self.notes[index]
+
+    def __len__(self):
+        return len(self.notes)
+
     def __init__(self, data, simple_note):
         self.data = data
         self.simple_note = simple_note

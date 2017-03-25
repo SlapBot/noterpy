@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/simplenote-client.iml" filepath="$PROJECT_DIR$/.idea/simplenote-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../noterpy/.idea/noterpy.iml" filepath="$PROJECT_DIR$/../noterpy/.idea/noterpy.iml" />
     </modules>
   </component>
 </project>
