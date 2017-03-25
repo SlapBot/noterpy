@@ -25,7 +25,7 @@ Using ``pip``:
 Dependencies
 ============
 
-- requests
+- simplenote
 
 API
 ===
