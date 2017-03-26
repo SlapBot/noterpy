@@ -8,7 +8,7 @@ Python client around ``The simplest way to keep notes.`` (a.k.a. ``Simple Note``
 
 It's built on top of ``simplenote.py``: https://github.com/mrtazz/simplenote.py
 
-**NOTE:** This library and its author are not endorsed by or affiliated with `NewsApi.com <https://newsapi.org/>`_.
+**NOTE:** This library and its author are not endorsed by or affiliated with `SimpleNote.com <https://simplenote.com/>`_.
 
 
 Installation
